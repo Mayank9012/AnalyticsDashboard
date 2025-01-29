@@ -67,11 +67,6 @@ Make sure you have the following installed:
 
 6. Open the browser and navigate to `http://localhost:3000` to see the application.
 
-### Environment Variables
+### Key Points:
 
-Ensure you have the following environment variable set for the backend:
-
-- **MONGO_URI**: Connection string for your MongoDB instance.
-
-```bash
-MONGO_URI=mongodb://127.0.0.1:27017/moneyai_portfolio
+- The **MongoDB connection URL** is directly included in the server code (`mongoose.connect()`), and the `README.md` simply suggests replacing it with your own MongoDB instance details (either local or cloud, like MongoDB Atlas).
