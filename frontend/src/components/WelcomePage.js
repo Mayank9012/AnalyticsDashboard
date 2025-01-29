@@ -78,7 +78,7 @@ const WelcomePage = () => {
   return (
     <div className="welcome-page">
       <div className="welcome-header">
-        <h1>Welcome to MoneyAI Portfolio</h1>
+        <h1>Welcome to Moneyy.ai Portfolio</h1>
         <p>Manage your investments with ease</p>
       </div>
       <div className="auth-container">
