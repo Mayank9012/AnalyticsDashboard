@@ -1,5 +1,4 @@
 # AnalyticsDashboard
-# Portfolio Analytics Dashboard
 
 This is a web application designed to provide an in-depth analysis of portfolio performance, including dynamic charts, key metrics, and strategy comparisons. It supports simulated financial data, such as investment performance, portfolio allocation, recent trades, and market updates.
 
@@ -17,7 +16,6 @@ This is a web application designed to provide an in-depth analysis of portfolio 
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (simulated data)
-- **Charts**: Chart.js (for dynamic visualizations)
 
 ## Getting Started
 
@@ -26,8 +24,8 @@ Follow the steps below to run the project locally:
 ### Prerequisites
 
 Make sure you have the following installed:
-- Node.js (>= 14.x)
-- npm (>= 6.x)
+- Node.js (>= 14.x), current version: `v22.12.0`
+- npm (>= 6.x), current version: `9.9.4`
 - MongoDB (running locally or use MongoDB Atlas for remote DB)
 
 ### Installation
@@ -35,14 +33,14 @@ Make sure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/portfolio-analytics-dashboard.git
-    cd portfolio-analytics-dashboard
+    git clone https://github.com/Mayank9012/AnalyticsDashboard.git
+    cd AnalyticsDashboard
     ```
 
 2. Install the backend dependencies:
 
     ```bash
-    cd backend
+    cd Backend
     npm install
     ```
 
@@ -56,8 +54,8 @@ Make sure you have the following installed:
 4. Run the backend server:
 
     ```bash
-    cd ../backend
-    npm start
+    cd ../Backend
+    npm run dev
     ```
 
 5. Run the frontend server:
