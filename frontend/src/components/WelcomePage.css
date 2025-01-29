@@ -1,0 +1,89 @@
+.welcome-page {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 10px 20px;
+  background: linear-gradient(to bottom, #3a6186, #89253e);
+  color: white;
+  min-height: 100vh;
+}
+  
+.welcome-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+  
+.welcome-header p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+  
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+  
+.auth-card {
+  background: white;
+  color: black;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+  
+.auth-card h2 {
+  margin-bottom: 20px;
+}
+  
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+}
+  
+.auth-card input,
+.auth-card select,
+.auth-card button {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+  
+.auth-card button {
+  background: #3a6186;
+  color: white;
+  cursor: pointer;
+}
+  
+.auth-card button:hover {
+  background: #2e4d6d;
+}
+  
+.toggle-section {
+  margin-top: 20px;
+}
+  
+.toggle-section .toggle-button {
+  background-color: transparent;
+  border: none;
+  color: #0e66b8;
+  font-size: 1rem;
+  padding: 0px;
+}
+
+.toggle-section .toggle-button:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+  
+.error-text {
+  color: red;
+  font-size: small;
+}
