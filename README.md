@@ -51,22 +51,36 @@ Make sure you have the following installed:
     npm install
     ```
 
-4. Run the backend server:
+4. Configure the MongoDB connection:
+   - Open the backend `server.js` file and set your MongoDB connection URL (either local or cloud).
+   - If using MongoDB Atlas or another cloud service, replace the connection string inside `mongoose.connect()`.
+
+5. Seed the database with dummy data:
+
+    ```bash
+    cd ../Data
+    node seedDatabase.js
+    ```
+
+   - This will populate the database with sample financial data for strategies, performance, allocation, trades, and market updates.
+
+6. Run the backend server:
 
     ```bash
     cd ../Backend
     npm run dev
     ```
 
-5. Run the frontend server:
+7. Run the frontend server:
 
     ```bash
     cd ../frontend
     npm start
     ```
 
-6. Open the browser and navigate to `http://localhost:3000` to see the application.
+8. Open the browser and navigate to `http://localhost:3000` to see the application.
 
 ### Key Points:
 
-- The **MongoDB connection URL** is directly included in the server code (`mongoose.connect()`), and the `README.md` simply suggests replacing it with your own MongoDB instance details (either local or cloud, like MongoDB Atlas).
+- The **MongoDB connection URL** is directly included in the server code (`mongoose.connect()`), and you should replace it with your own MongoDB instance details (either local or cloud, like MongoDB Atlas).
+- The **SeedDatabase** script is provided to populate the database with simulated data. Run it once after installation to have dummy data for your portfolio analytics.
