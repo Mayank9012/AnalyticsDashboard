@@ -59,6 +59,7 @@ Make sure you have the following installed:
 
     ```bash
     cd ../Data
+    npm install
     node seedDatabase.js
     ```
 
